@@ -1,7 +1,7 @@
 {
   "name": "typescript-course",
   "version": "1.0.0",
-  "description": "API desenvolvida utilizando TS, NODE, ES6, POSTGRES, Squelize",
+  "description": "API desenvolvida utilizando TS, NODE, ES6, POSTGRES, Sequelize",
   "main": "server.ts",
   "scripts": {
     "start": "./node_modules/.bin/ts-node ./server/server.ts",
