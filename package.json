@@ -5,6 +5,7 @@
   "main": "server.ts",
   "scripts": {
     "start": "./node_modules/.bin/ts-node ./server/server.ts",
+    "built": "node ./build/serve.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -29,6 +30,7 @@
     "@types/morgan": "^1.7.37",
     "@types/sequelize": "^4.28.6",
     "sequelize": "^5.21.0",
-    "ts-node": "^8.4.1"
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
   }
 }
