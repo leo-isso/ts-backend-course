@@ -5,7 +5,7 @@
   "main": "server.ts",
   "scripts": {
     "start": "NODE_ENV=development ./node_modules/.bin/ts-node ./server/server.ts",
-    "built": "node ./build/serve.js",
+    "built": "NODE_ENV=development node ./build/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
